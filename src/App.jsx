@@ -2,13 +2,16 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 // import "./App.css";
-import Userprofile, {
-  Profile,
-  Setting,
-  Userkey,
-  Customer,
-} from "./Userprofile";
+// import Userprofile, {
+//   // Profile,
+//   // Setting,
+//   // Userkey,
+//   // Customer,
+// } from "./Userprofile";
+import Userprofile from "./Userprofile";
 import Todo from "./Todo";
+import Buttons from "./Buttons";
+import Profile from "./Profile";
 
 function App() {
   const name = "Monalisa";
@@ -17,23 +20,25 @@ function App() {
   function Fruits() {
     return "Apple";
   }
-  function sum(a, b) {
-    return a + b;
-  }
+  // function sum(a, b) {
+  //   return a + b;
+  // }
   return (
     <>
       <h1>React Small project {sum()}</h1>
       <Userprofile />
       <Color />
-      <Profile />
+      {/* <Profile />
       <Setting />
       <Customer />
-      <h1>{Userkey}</h1>
+      <h1>{Userkey}</h1> */}
       <h2>{name}</h2>
       <h2>{x + y}</h2>
       <h1> {Fruits()}</h1>
       <h1>{sum(20, 30)}</h1>
       <Todo />
+      <Buttons />
+      <Profile />
     </>
   );
 }

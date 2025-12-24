@@ -18,3 +18,9 @@ This repo contains my step-by-step practice while learning React.
 - Learn React components, state, props, events
 - Build small projects
 - Push daily practice to GitHub
+
+## React Practice Updates
+
+- Practiced useState hook
+- Built counter component (increment functionality)
+- Fixed common React errors (return outside function, hooks usage)
